@@ -2,7 +2,7 @@ Ext.define('pmosoft.view.main.TopMenu', {
     extend: 'Ext.panel.Panel',
     alias: 'widget.topMenu',
     region : 'north',
-    title : 'FFRAME',
+    title : 'Pmosoft',
     //split: true,
     //collapsible: true,        
     bodyBorder: false,
@@ -10,19 +10,22 @@ Ext.define('pmosoft.view.main.TopMenu', {
     header : false,
     items : [{
         xtype : 'toolbar',
-        style:'border-color:#99BBE8;background-color:#D3E1F1 !important;',
+        //style:'border-color:#99BBE8;background-color:#D3E1F1 !important;',
         items : [
         {
             xtype : 'label',
-            html : '<h2>FFRAME</h2>'
+            //margin : 10 0 0 0,
+            html : '<h2>&nbsp;&nbsp;&nbsp;&nbsp;Pmo<span style="color:red">S</span>oft</span></h2>',
+            iconCls: 'fa-th-list'
         },'->',
         {
             xtype : 'button',
-            text : 'xxx님',
+            text : '메뉴',
+            iconCls: 'x-fa fa-th-list',
             menu : [{
-                text : '비밀번호변경'
+                text : '솔루션'
             },{
-                text : '로그아웃'
+                text : '연락처'
             }]
         }]
     }]

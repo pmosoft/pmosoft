@@ -18,7 +18,7 @@ Ext.define('pmosoft.view.main.MainFrameView', {
      //----------------------------- 
      // center 메뉴    
      //----------------------------- 
-         xtype: 'app-main'
+         xtype: 'aboutView'
         ,region: 'center'
         ,itemId: 'maintab'
         ,margin: '5 5 0 0'        
