@@ -1,9 +1,9 @@
 Ext.define('pmosoft.view.home.AboutView', {
      extend     : 'Ext.form.Panel'
     ,xtype      : 'aboutView'
-    ,viewModel  : 'aboutView'
+    ,viewModel  : 'aboutView' 
     ,items :  
-     [   
+     [    
       //-------------------------------------------
       // 개요
       //-------------------------------------------
