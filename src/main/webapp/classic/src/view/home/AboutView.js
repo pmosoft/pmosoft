@@ -3,7 +3,7 @@ Ext.define('pmosoft.view.home.AboutView', {
     ,xtype      : 'aboutView'
     ,viewModel  : 'aboutView'
     ,items :
-     [  
+     [   
       //-------------------------------------------
       // 개요
       //-------------------------------------------
