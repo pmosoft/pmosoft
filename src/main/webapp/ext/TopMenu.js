@@ -1,7 +1,6 @@
 Ext.define('pmosoft.view.main.TopMenu', {
-    extend: 'Ext.panel.Panel',
+    extend: 'Ext.Panel',
     alias: 'widget.topMenu',
-    region : 'north',
     title : 'Pmosoft',
     //split: true,
     //collapsible: true,        

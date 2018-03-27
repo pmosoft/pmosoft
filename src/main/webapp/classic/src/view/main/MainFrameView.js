@@ -1,8 +1,8 @@
 Ext.define('pmosoft.view.main.MainFrameView', {  
-    extend : 'Ext.container.Viewport'
+    extend : 'Ext.panel.Panel'
    ,xtype  : 'mainFrame'
-   ,layout : 'border'
-//    ,defaults: {
+   //,layout    : { type:'vbox' , pack:'center' , align:'middle'}
+   //    ,defaults: {
 //        //collapsible: true
 //        ,split: false
 //        ,bodyPadding: 10
@@ -19,16 +19,6 @@ Ext.define('pmosoft.view.main.MainFrameView', {
      // center 메뉴    
      //----------------------------- 
          xtype: 'aboutView'
-        ,region: 'center'
-        ,itemId: 'maintab'
-        ,margin: '5 5 0 0'        
-        ,split : false
-        ,bodyBorder: false                
-        ,height: Ext.Element.getViewportHeight()-80
-        ,defaults: {
-           scrollable: true
-         }      
-        ,flex : 1
      }
     ]
 });
