@@ -9,7 +9,7 @@ Ext.define('pmosoft.view.main.MainFrameView', {
 //    }
    ,items :
     [
-     {
+     { 
      //----------------------------- 
      // top 메뉴   
      //----------------------------- 
