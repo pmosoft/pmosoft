@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="">
+	<meta name="author" content="CEO of BlockXen Co., Ltd.">
+
+	<title>PMOSOFT</title>
+
+	<!-- Bootstrap core CSS -->
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='vendor/bootstrap/css/bootstrap.min.css' ) }}">
+
+	<!-- Custom fonts for this template -->
+	<!-- <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css"> -->
+	<link href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" rel="stylesheet" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+	<link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+	<!-- Custom styles for this template -->
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/agency.min.css' ) }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/blx_webfonts.css' ) }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/portfolio.css' ) }}">
+
+</head>
+
+<body id="page-top">
+
+	<!-- Navigation -->
+	<nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+		<div class="container">
+			
+			<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+				메뉴
+				<i class="fas fa-bars"></i>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav text-uppercase ml-auto">
+					<li class="nav-item">
+						<a class="nav-link js-scroll-trigger" href="#services">업무분야</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link js-scroll-trigger" href="#about">회사 약력</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link js-scroll-trigger" href="#team">인력</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<!-- Header -->
+	<header class="masthead">
+		<div class="container">
+			<div class="intro-text">
+				<div class="intro-lead-in" style="color: #ffd700; font-style: normal; font-weight: 800;">PMOSOFT</div>
+				<div class="intro-heading text-uppercase">백앤드개발 전문업체입니다.<br>
+          <h1 class="section-heading text-uppercase">(DB설계, 업무프로세스 개발)</h1>
+        </div>
+				<a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services" style="background-color: #daa520; width: 250px;">읽어보기</a>
+			</div>
+		</div>
+	</header>
+
+	<!-- Services -->
+	<section id="services">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 text-center">
+					<h2 class="section-heading text-uppercase">업무분야</h2>
+					<h3 class="section-subheading text-muted" style=" font-weight: 800;">현인력 기준입니다. 서비스를 확대하고 있습니다.</h3>
+				</div>
+			</div>
+			<div class="row text-center">
+				<div class="col-md-3">
+					<span class="fa-stack fa-4x">
+						<i class="fab fa-dev"></i>
+					</span>
+					<h4 class="service-heading">업무개발</h4>
+					<p class="text-muted">숙련되고 다양한 경험을 바탕으로 요구사항 분석하고 화면 프로세스, DB, 아키텍쳐를 설계합니다. 동작뿐만아니라 네임밍, 구조, 로그, 확장성을 고려한 구현을 추구합니다. ASIS 분석 과정에서 기존 프로세스, DB설계, 어플리이션 아키택쳐에 대한 인사이트를 제공해 드립니다.</p>
+				</div>
+				<div class="col-md-3">
+					<span class="fa-stack fa-4x">
+						<i class="fas fa-database"></i>
+					</span>
+					<h4 class="service-heading">데이터 이관(ETL)</h4>
+					<p class="text-muted">현장에서 수많은 데이터 관련 작업이 발생됩니다. DB 데이터 전체의 이관, 데이터 파이프라인의 신설-추가-변경, JSON 데이터 RDB 적재, 빅데이터 가공, DB 스키마 변경을 반영한 적재. 그간 많은 DBMS를 경험하였습니다. 또한 빅데이터 처리도 특화된 능력을 보유하고 있습니다.</p>
+				</div>
+				<div class="col-md-3">
+					<span class="fa-stack fa-4x">
+						<i class="fab fa-aws"></i>
+					</span>
+					<h4 class="service-heading">AWS Glue</h4>
+					<p class="text-muted">많은 기업들이 On-premise에서 AWS로 이관하고 있습니다. 자체리눅스 -> EC2, 자체DB -> RDS, 자체파일서버 -> S3 그리고 Batch는 AWS Glue가 담당합니다. 실무에서 실사용되는 AWS 솔루션에 대한 경험과 역량을 갖추고 있습니다. AWS 이관 및 구축을 합니다.</p>
+				</div>
+				<div class="col-md-3">
+					<span class="fa-stack fa-4x">
+						<i class="fas fa-th"></i>
+
+					</span>
+					<h4 class="service-heading">Spark 개발</h4>
+					<p class="text-muted">대용량 빅데이터를 처리하기 위한 분산 서버 시스템인 spark 업무를 다년간 수행해 왔습니다. 빅데이터 처리시에서는 비즈니스 로직뿐만 아니라 자원관리가 중요합니다. 서버구성 및 메모리 관리등 운영 역량을 갖추고 있습니다.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Portfolio Grid -->
+
+	<!-- About -->
+	<section id="about">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 text-center">
+					<h2 class="section-heading text-uppercase">회사 약력</h2>
+					<h3 class="section-subheading text-muted">2000년~현재</h3>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-12">
+					<ul class="timeline">
+						<li>
+							<div class="timeline-image">
+								<img class="rounded-circle img-fluid" src="static/img/about/datalake.png" alt="">
+							</div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h4>2020 ~ 2023</h4>
+									<h4 class="subheading">LG전자 DATALAKE 구축</h4>
+								</div>
+								<div class="timeline-body">
+									<p class="text-muted">AWS EC2, S3, Glue, Athena 활용하여 DATALAKE 데이터베이스 설계 및 구축하고 운영하고 있습니다. 타부서 연동거래 파이프라인을 구축하여 Glue를 이용하여 ETL를 수행합니다.</p>
+								</div>
+							</div>
+						</li>
+						<li class="timeline-inverted">
+							<div class="timeline-image">
+								<img class="rounded-circle img-fluid" src="static/img/about/subscription.jpg" alt="">
+							</div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h4>2020</h4>
+									<h4 class="subheading">구글 애플 구독결제 개발</h4>
+								</div>
+								<div class="timeline-body">
+									<p class="text-muted">AWS EC2, RDS를 활용하여 구글 및 애플 양뱡향 구독 결재 서버 모듈 개발. 사용자 인증(구글, 페이스북, 애플) 서버 모듈 개발. 휴면, 탈퇴회원 관리 및 개인정보 관리 모듈 개발</p>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="timeline-image">
+								<img class="rounded-circle img-fluid" src="static/img/about/6.png" alt="" >
+							</div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h4>2018 ~ 2019</h4>
+									<h4 class="subheading">유저 접속정보 분석</h4>
+								</div>
+								<div class="timeline-body">
+									<p class="text-muted">SK Telecom 사용자 접속 정보 분석 모듈 DB설계 및 개발. 빅데이터 처리을 위하여 Spark 전처리후 오라클엑사DB로 이관.</p>
+								</div>
+							</div>
+						</li>                        
+						<li class="timeline-inverted">
+							<div class="timeline-image">
+								<img class="rounded-circle img-fluid" src="static/img/about/building.png" alt="">
+							</div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h4>2018 ~ 2019</h4>
+									<h4 class="subheading">SK Telecom</h4>
+								</div>
+								<div class="timeline-body">
+									<p class="text-muted">3D 빌딩의 공간정보를 분석하여 기지국과 휴대폰간의 통화품질 시뮬레이션 데이터 이관. Spark 및 HDFS 이용.</p>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="timeline-image">
+								<img class="rounded-circle img-fluid" src="static/img/about/targetting.jpg" alt="">
+							</div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h4>2015</h4>
+									<h4 class="subheading">타겟 고객 마켓팅</h4>
+								</div>
+								<div class="timeline-body">
+									<p class="text-muted">실시간 신한카드 승인 데이터로 웨이브 마케팅 구현 및 타켓팅 자동화 DB설계 및 개발.</p>
+								</div>
+							</div>
+						</li>
+						<li class="timeline-inverted">
+							<div class="timeline-image">
+								<img class="rounded-circle img-fluid" src="static/img/about/stock.png" alt="">
+							</div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h4>2012 ~ 2013</h4>
+									<h4 class="subheading">펀드회계</h4>
+								</div>
+								<div class="timeline-body">
+									<p class="text-muted">채권,주식,선물,옵션,외환 거래 회계처리 및 장부가 평가 처리 및 기준가 검증</p>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="timeline-image">
+								<img class="rounded-circle img-fluid" src="static/img/about/aml.jpg" alt="">
+							</div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h4>2006 ~ 2010</h4>
+									<h4 class="subheading">자금세탁방지</h4>
+								</div>
+								<div class="timeline-body">
+									<p class="text-muted">하나은행 거래데이터로 이상거래 탐지 및 임계치 튜닝</p>
+								</div>
+							</div>
+						</li>
+						<li class="timeline-inverted">
+							<div class="timeline-image">
+								<img class="rounded-circle img-fluid" src="static/img/about/loan.png" alt="">
+							</div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h4>2003 ~ 2005</h4>
+									<h4 class="subheading">여신 조기경보</h4>
+								</div>
+								<div class="timeline-body">
+									<p class="text-muted">부실징후채권 경보 시스템 개발.	신용평가기관과 일별,월별,실시간 고객 연체정보, 대출정보 송수신 프로그램 개발.</p>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Team -->
+	<section class="bg-light" id="team">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 text-center">
+					<h2 class="section-heading text-uppercase">TEAM</h2>
+					<h3 class="section-subheading text-muted">팀원외 필요시 외주인력으로 구성됩니다</h3>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-4">
+					<div class="team-member">
+						<img class="mx-auto rounded-circle" src="static/img/team/9.jpg" alt="">
+						<h4>외주</h4>
+						<p class="text-muted">프론드엔드 개발 총괄</p>
+						<ul class="list" style="display: flex; flex-direction: column; flex-wrap: wrap; justify-content: flex-start; align-items: flex-start;">
+							<li class="list-item">프로젝트별 외주인력</li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="team-member">
+						<img class="mx-auto rounded-circle" src="static/img/team/psh04.png" alt="">
+						<h4>피승현</h4>
+						<p class="text-muted">CEO, 경영/기획 및 백엔드 개발 총괄</p>
+						<ul class="list" style="display: flex; flex-direction: column; flex-wrap: wrap; justify-content: flex-start; align-items: flex-start;">
+							<li class="list-item">성균관대학교 경영학사 졸업</li>
+							<li class="list-item">풀스택개발자. 경력23년</li>
+							<li class="list-item"><a href="https://www.linkedin.com/in/josephpi">Linkedin profile</a>
+							<li class="list-item"><a href="https://github.com/pmosoft">Github Repositories</a>
+							<li class="list-item">pmosoft@gmail.com</li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="team-member">
+						<img class="mx-auto rounded-circle" src="static/img/team/9.jpg" alt="">
+						<h4>외주</h4>
+						<p class="text-muted">백앤드 개발</p>
+						<ul class="list" style="display: flex; flex-direction: column; flex-wrap: wrap; justify-content: flex-start; align-items: flex-start;">
+							<li class="list-item">프로젝트별 외주인력</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-8 mx-auto text-center">
+					<p class="large text-muted"></p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<!-- Footer -->
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<span class="copyright">Copyright &copy; PMOSOFT Co., Ltd</span>
+				</div>
+				<div class="col-md-4">
+					<ul class="list-inline social-buttons">
+
+						<li class="list-inline-item footer_linkicon">
+							<div class="footer_linkicon_tooltip">홈으로 되돌아가기</div>
+							<a href="http://www.pmosoft.net" target="_blank">
+								<i class="fas fa-home"></i>
+							</a>
+						</li>
+						<li class="list-inline-item footer_linkicon">
+							<div class="footer_linkicon_tooltip">pmosoft@gmail.com</div>
+              <a href="mailto:pmosoft@gmail.com">
+								<i class="fas fa-envelope"></i>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="col-md-4"></div>
+			</div>
+		</div>
+	</footer>
+
+	<!-- Bootstrap core JavaScript -->
+	<script src="static/vendor/jquery/jquery.min.js"></script>
+	<script src="static/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+	<!-- Plugin JavaScript -->
+	<script src="static/vendor/jquery-easing/jquery.easing.min.js"></script>
+
+	<!-- Contact form JavaScript -->
+	<script src="static/js/jqBootstrapValidation.js"></script>
+	<!-- <script src="static/js/contact_me.js"></script> -->
+
+	<!-- Custom scripts for this template -->
+	<script src="static/js/agency.min.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,42 @@
+.footer_linkicon_tooltip {
+    position: absolute;
+    width: 200px;    
+    height: 20px;    
+    top: -25px;
+    font-size: 0.6rem;
+    margin-left: -75px;
+    padding-right: 10px;
+    background-color: rgb(233, 233, 233);
+    
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    opacity: 0;
+}
+
+.footer_linkicon:hover .footer_linkicon_tooltip {
+    opacity: 1;
+    transition: 1.5s;
+}
+
+.Class_subtitle_text_style {
+    font-style: normal;
+    font-weight: 800;
+}
+#CloudGear_Element_guidevideo1 {
+    width: 100%;
+    height: 40vh;
+    margin-bottom: 50px;
+}
+  
+@media(max-width:768px) {
+    header.masthead .intro-text .intro-lead-in {
+        font-size: 20px;
+    }
+    .portfolio-modal .modal-content h2 {
+        font-size: 25px;
+    }
+}

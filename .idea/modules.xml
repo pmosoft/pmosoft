@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../crawling/.idea/crawling.iml" filepath="$PROJECT_DIR$/../crawling/.idea/crawling.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../fastcampus-rl-pjy/.idea/fastcampus-rl-pjy.iml" filepath="$PROJECT_DIR$/../fastcampus-rl-pjy/.idea/fastcampus-rl-pjy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/pmosoft.iml" filepath="$PROJECT_DIR$/.idea/pmosoft.iml" />
+    </modules>
+  </component>
+</project>
